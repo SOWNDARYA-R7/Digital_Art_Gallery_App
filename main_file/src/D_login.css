@@ -1,0 +1,293 @@
+/* .container{
+        background-image:url("../public/bg11.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+      
+    } */
+
+    .image{
+
+        width: 60vw;
+
+        height:100vh;
+
+    }
+
+    #logo{
+
+        width:10vw;
+
+        height: 20vh;
+
+    }
+
+    #heading{
+
+        margin-top: -2vh;
+
+        margin-left: 0vw;
+
+         display: block;
+
+         text-align:center;
+
+         font-family:Arial, Helvetica, sans-serif;
+
+         font-size: 35px;
+
+    }
+
+    .mc{
+
+background-image: linear-gradient(to right, red, orange, rgb(235, 10, 223), rgb(184, 23, 216), violet);
+
+-webkit-background-clip: text;
+
+-moz-background-clip: text;
+
+background-clip: text;
+
+color: transparent;
+
+}
+
+#template{
+
+        width:30vw;
+
+        height: 45vh;
+
+        margin-left: 12vw;
+
+        margin-top: -5vh;
+
+    }
+
+    #p{
+
+     font-size: large;
+
+     font-family:Arial, Helvetica, sans-serif;
+
+     font-weight: 300;
+
+
+
+    }
+
+    .form{
+
+        width: 40vw;
+
+        height:100vh;
+
+        margin-left: 50vw;
+
+        margin-top: -90vh;
+       
+
+    }
+
+    input{
+
+        width:45vw;
+
+        height:8vh;
+        padding :0px 10px;
+        border-radius: 15px;
+
+        border: 1px solid rgb(187, 176, 176);
+
+    }
+
+    #btn1{
+
+        width: 45vw;
+
+        height: 7vh;
+
+        background-color: rgb(0, 117, 226);
+
+        border-radius: 40px;
+
+        border: 0px;
+
+        font-family:Arial, Helvetica, sans-serif;
+
+        font-size: 15px
+
+    }
+
+    #btn1:hover{
+
+        background-color:rgb(44, 58, 252);
+
+      
+
+      }
+
+    #btn2{
+
+        width: 45vw;
+
+        height: 7vh;
+
+        border-radius: 40px;
+
+        border:0px solid white;
+
+        font-family:Arial, Helvetica, sans-serif;
+
+        font-size: 15px
+
+    }
+
+    #btn2:hover{
+
+        background-color:rgb(221, 220, 220);
+
+    }
+
+    #lunara{
+
+         width: 20px;
+
+        height: 20px;
+
+        margin-top: 2px;
+
+        margin-left: 20px;
+
+    }
+
+    #btn3{
+
+        width: 45vw;
+
+        height: 7vh;
+
+        border-radius: 40px;
+
+        border: 1px solid rgb(187, 176, 176);
+
+        font-family:Arial, Helvetica, sans-serif;
+
+        font-size: 15px;
+
+        text-align: center; 
+
+    }
+
+    #btn3:hover{
+
+        background-color:rgb(221, 220, 220);
+
+    }
+
+    #btn4{
+
+        width: 45vw;
+
+        height: 7vh;
+
+        border-radius: 40px;
+
+        border: 1.5px solid rgb(13, 95, 247);
+
+        color: rgb(13, 95, 247) ;
+
+        background-color: white;
+
+        font-family:Arial, Helvetica, sans-serif;
+
+        font-size: 16px;
+
+        font-weight:500px;
+
+    }
+
+    #btn4:hover{
+
+        background-color:rgb(221, 220, 220);
+
+    }
+
+    #meta{
+
+        width: 20px;
+
+        height: 20px;
+
+        margin-top: 25px;
+
+        margin-left: 250px;
+
+    }
+
+    #h2{
+
+        width: 5vw;
+
+        margin-top: -25px;
+
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana;
+
+        background-color: rgb(253, 253, 253);
+
+    }
+
+    a{
+
+        color: rgb(151, 149, 149);
+
+    }
+
+    .flex{
+
+        width: 60vw;
+
+        font-size: 12px;
+
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana;
+
+        margin-left: 17vw;
+
+        display: flex;
+
+        justify-content:space-around;
+
+        margin-top: -15vh;
+
+        
+
+
+
+    }
+
+    select{
+
+        color: rgb(151, 149, 149);
+
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana;
+
+         font-size: 12px;
+
+         border: 0px solid black;
+
+         width: 60px;
+
+    }
+
+    footer{
+
+        display: flex;
+
+         font-size: 12px;
+
+        justify-content: center;
+
+        color: rgb(151, 149, 149);
+
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana;
+
+    }

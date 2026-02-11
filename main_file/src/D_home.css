@@ -1,0 +1,95 @@
+/* #mainone{
+    background-image: url(../public/bg7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#logo{
+    width: 120px;
+}
+
+#headings{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#profile{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#h41{
+    text-align: center;
+    font-size: 20px;
+}
+
+#bt3{
+    display: block;
+    margin: 10px auto;
+    padding: 6px 14px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px black;
+}
+
+#sidebar{
+    width: 220px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bt1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:aquamarine;
+}
+
+#option1{
+    width: 24px;
+    height: 24px;
+}
+
+#post{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.postGrid{
+    
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.postCard img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#logout{
+    width: 55px;
+    height: 30px;
+    border-radius: 20px;
+    position: fixed;
+    left:90vw;
+    top:1vw;
+
+
+}
